@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .d01{
+            display: inline-block;
+        }
+        
+        .d11{
+            margin-left: 20px;
+        }
+        .d12{
+            margin-left: 150px;
+            font-size: 25px;
+            color: white;
+        }
+        .d13{
+            margin-left: 1px;
+            font-size: 25px;
+            color: white;
+        }
+        .d14{
+            margin-left: 150px;
+        }
+        .d1{
+            background-color: rgb(64, 157, 64);
+            width: 520px;
+        }
+        .d21,.d22{
+            display: inline-block;
+            width: 260px;
+        }
+        .d21{
+            background-color: white;
+        }
+        .d3{
+            width: 500px;
+            background-color: white;
+            border: 1px solid rgb(137, 137, 137);
+            margin: 30px 10px 0px 10px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .d32{
+            /* border: 1px solid black; */
+            width: 300px;
+            height: auto;
+            /* margin-left: 10px; */
+            text-align: center;
+            /* border: 1px solid black; */
+        }
+        .d31,.d32,.d33{
+            display: inline-block;
+        }
+        .d31{
+            margin-left: -40px;
+        }
+        .d41,.d42,.d43,.d44{
+            display: inline-block;
+            
+        }
+        .d4{background-color: white;}
+        .d4>div{
+            display: inline-block;
+            height: 50px;
+            text-align: center;
+        }
+        .c1{
+            z-index: 1;
+        }
+        .c1,.c2{
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="c1">
+        <div class="d1">
+            <a class="d11 d01" href=""><img width="30px" height="30px" src="./menu-alt.svg"/></a>
+            <p class="d12 d01"><b>Book</b></p>
+            <p class="d13 d01"><b>Now</b></p>
+            <a class="d14 d01" href=""><img  width="30px" height="30px" src="./missed-call.svg"/></a>
+        </div>
+        <div class="d2">
+            <div class="d21" style="border: 1px solid ; text-align: center;"><p>PICKUP</p></div>
+            <div class="d22" style="border: 1px solid ; text-align: center; margin-left: -5px; background-color: rgb(61, 61, 191); color: white;"><P>DROP OFF</P></div>
+        </div>
+        <div class="d3">
+            <a class="d31" href=""><i class="fa fa-angle-double-left" style="font-size:36px"></i></a>
+            <div class="d32">addressaddressaddressaddressaddress<br>addressaddressaddress<br>addressaddressaddress</div>
+            <a class="d33" href=""><i class="fa fa-angle-double-right" style="font-size:36px"></i></a>
+        </div><br>
+        <div class="d4">
+            <div style="border: 1px solid rgb(123, 121, 121);border-radius: 5px;  width: 250px; margin-left: 10px;">
+                <i class="d41 fa fa-calendar" style="font-size:36px"></i>
+                <form class="d42"><input type="date" /></form>
+            </div>
+            <div style="border: 1px solid rgb(123, 121, 121);border-radius: 5px;  width: 250px; margin-left: -5px;">
+                <i class="d43 fa fa-clock-o" style="font-size:36px"></i>
+                <form class="d44"><input type="time"/></form>
+            </div>
+        </div>
+        <div style="color: white; background-color: rgb(59, 59, 207); width: 520px; text-align: center; margin-top: 300px;">
+            <h3>Next</h3>
+        </div>
+    </div>
+    <div class="c2">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.3018027246703!2d78.3995478737926!3d17.493100799753847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91625d9cd1ad%3A0x4455387ad24a675d!2s10000coders!5e0!3m2!1sen!2sin!4v1704361422899!5m2!1sen!2sin" width="520" height="620" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</body>
+</html>
